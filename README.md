@@ -2,13 +2,13 @@
 
 JavaScript AWS Lambda function to automatically backup EBS volumes.
 
-Volumes to be backed up must be in the same region as the lambda function and be tagged with `aws-ebs-backup-lambda.enable = true`.
+Volumes to be backed up must be in the same region as the Lambda function and be tagged with `aws-ebs-backup-lambda.enable = true`.
 
 To adjust the snapshot retention (10 by default), change `MAX_SNAPSHOTS` in `handler.js`.
 
 ## Lambda function
 
-Create a Node.js >=8.10 lambda function using `handler.js` code.
+Create a Node.js >=8.10 Lambda function with `handler.js` code.
 
 ## IAM Policy
 
