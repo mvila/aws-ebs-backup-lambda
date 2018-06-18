@@ -8,7 +8,7 @@ To adjust the snapshot retention (10 by default), change `MAX_SNAPSHOTS` in `han
 
 ## Lambda function
 
-Create a Node.js >=8.10 Lambda function with `handler.js` code.
+Create a Node.js >=8.10 Lambda function with `handler.js` code and 3 minutes timeout.
 
 ## IAM Policy
 
